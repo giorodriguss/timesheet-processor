@@ -1,0 +1,5 @@
+services:
+  timesheet-processor:
+    build: .
+    volumes:
+      - ./result.json:/app/result.json
