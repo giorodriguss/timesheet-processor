@@ -89,7 +89,7 @@ Após a execução, o `result.json` gerado segue esta estrutura:
 
 ## 🧠 Decisão técnica — Por que Python?
 
-A vaga é para desenvolvimento **JavaScript/TypeScript** — e essa é a stack que seria adotada em um ambiente de produção real. No entanto, para o escopo desta atividade, Python foi escolhido por razões objetivas:
+A vaga é para desenvolvimento **JavaScript/TypeScript**, e essa é a stack que seria adotada em um ambiente de produção real. No entanto, para o escopo desta atividade, Python foi escolhido por razões objetivas:
 
 **1. Zero dependências externas**
 Toda a lógica foi implementada com stdlib nativa (`json`, `collections`, `pathlib`). Não há `npm install`, `package.json` ou etapa de build — o Dockerfile tem apenas 5 linhas.
